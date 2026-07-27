@@ -1,8 +1,30 @@
 aid: future-trash
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/future-trash.png
 name: Future Trash
-description: Future Trash is a company surfaced as a portfolio company of general-catalyst and added to
-  the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: >-
+  Future Trash is a Los Angeles-based independent, multidisciplinary creative
+  game studio and the developer behind FOAD, a user-generated-content (UGC)
+  native video game franchise. Founded around 2022, the team first built a
+  vertical-slice MVP of FOAD in Unreal Engine 5 and released it in early access
+  on Steam. After Epic Games launched Unreal Editor for Fortnite (UEFN) in 2023,
+  the studio pivoted to building FOAD experiences natively inside Fortnite's UGC
+  ecosystem, spanning MOBA, tycoon, and combat modes, while planning to resume
+  the standalone UE5 core game. Future Trash raised a $5M seed round in September
+  2024 led by TIRTA Ventures with participation from General Catalyst. This
+  profile was surfaced from General Catalyst's portfolio and added to the API
+  Evangelist network; Future Trash is a game studio and publishes no public
+  developer API surface.
 url: https://raw.githubusercontent.com/api-evangelist/future-trash/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,12 +34,34 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Gaming
+- Game Studio
+- Video Games
+- UEFN
+- Fortnite
+- User-Generated Content
+- Creative Studio
+- Entertainment
 apis: []
+common:
+- type: Website
+  url: https://www.foad.gg
+- type: Blog
+  url: https://www.foad.gg/news
+- type: PrivacyPolicy
+  url: https://www.foad.gg/privacy-cookie-policy
+- type: Support
+  url: https://discord.gg/FOAD
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
